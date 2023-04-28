@@ -1,2 +1,3 @@
-# Home_Sales
+# Home Sales
 
+This project uses SparkSQL to analyze home sales data. The goal is to determine key metrics about home sales, such as average prices and view ratings. The project involves creating temporary views, partitioning the data, caching and uncaching a temporary table, and verifying that the table has been uncached. The project includes several SparkSQL queries to answer questions about the data, such as the average price for a four-bedroom house sold for each year and the average price of a home with three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet for each year built. The project is evaluated based on the successful creation of a Spark DataFrame, a temporary table of the original DataFrame, and temporary tables for partitioned data. The project also requires caching and uncaching of temporary tables and the successful execution of SparkSQL queries.
